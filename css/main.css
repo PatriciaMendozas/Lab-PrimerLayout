@@ -1,11 +1,9 @@
 *{
 	outline: 1px solid rgba(255,0,0,0.4);
-	
 }
-
 header, footer {
-	width: 80%;
-	max-width: 900px;
+	width: 65%;
+	max-width: 800px;
 	margin: auto;
 }
 img{
@@ -32,7 +30,6 @@ header nav ul{
 	text-align: center;
 	margin: 7px 0px;
 }
-
 p{
 	color: black;
 	text-align: center;
@@ -40,7 +37,6 @@ p{
 	position: relative;
 	margin: auto;
 	}
-
 .lineas {
 	width: 8%;
 	border: 1px solid black;
@@ -55,7 +51,7 @@ p{
 }
 
 .contenido{
-	width: 72%;
+	width: 65%;
 	margin: auto;
 }
 
@@ -64,14 +60,6 @@ p{
 	margin-left: 6%;
 	margin-top: 6%;
 	}
-
-/*.clearfix:before,.clearfix:after{
-	content:"";
-	display: table;
-}
-.clearfix:after{
-	clear: both;
-}*/
 .imagen{
 	width: 29.3%;
 	position: relative;
@@ -97,7 +85,6 @@ img{
 	background: #000000;
 	opacity:0.4;
 }
-
 .imagen > div:hover{
 	opacity: 0;
 }
@@ -137,7 +124,6 @@ footer{
 	clear: both;
 	background: grey;
 	text-align: center;
-	
 }
 
 
