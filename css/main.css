@@ -16,13 +16,21 @@ header nav{
 	border:1px solid black;
 	border-left-style: none;
 	border-right-style: none;
+	margin-bottom: 8px;
 	}
 header nav ul li {
-	display: inline;
 	color: black;
-	}
+	display: inline;
+	border-right:1px solid black;
+		}
+header nav ul li a
+{
+text-decoration: none;
+padding: 5px 20px;
+}
 header nav ul{
 	text-align: center;
+	margin: 7px 0px;
 }
 
 p{
@@ -31,7 +39,6 @@ p{
 	width: 40%;
 	position: relative;
 	margin: auto;
-
 	}
 
 .lineas {
@@ -41,7 +48,7 @@ p{
 
 }
 .izquierda{
-	width: 3%;
+	width: 6%;
 	border: 1px solid black;
 	position: relative;
 	float: left;
@@ -54,23 +61,23 @@ p{
 
  .Contenedor{
 	max-width: 900px;
-	margin-left: 50px;
+	margin-left: 6%;
+	margin-top: 6%;
 	}
-.clearfix:before,.clearfix:after{
+
+/*.clearfix:before,.clearfix:after{
 	content:"";
 	display: table;
-
 }
 .clearfix:after{
 	clear: both;
-}
+}*/
 .imagen{
 	width: 29.3%;
 	position: relative;
 	float: left;
 	margin-right: 4%;
 	margin-bottom: 4%;
-	
 }
 img{
 	width:100%;
@@ -80,7 +87,7 @@ img{
 	width: 50%;
 	bottom: 4%;
 	right: 6%;
-	color:#999999;
+	color:white;
 }
 .Capa{
 	width: 100%;
@@ -94,8 +101,40 @@ img{
 .imagen > div:hover{
 	opacity: 0;
 }
-
+.fotoprincipal{
+	border-radius: 100px;
+	height: 150px;
+	width: 150px;
+	position: relative;
+	left: 41%;
+	margin-top:15px;
+}
+.nombreyapellido{
+	text-align: center;
+}
+.caja1{
+	width: 75%;
+	background: grey;
+	margin-left: 18px;
+}
+.caja2{
+	width: 50%;
+	background: grey;
+	margin-left: 18px;
+}
+.caja3{
+	width: 25%;
+	background: grey;
+	margin-left: 18px;
+}
+.lista{
+	margin-left: 0px;
+	margin-top: 10px;
+	text-align: left;
+	padding: 5px;
+	}
 footer{
+	clear: both;
 	background: grey;
 	text-align: center;
 	
